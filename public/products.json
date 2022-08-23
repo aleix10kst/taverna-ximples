@@ -1,0 +1,69 @@
+{
+    "meals": [
+        {
+            "name": "Ximple de tocino",
+            "description": "(Carn picada de porc amb xampinyons i ceba, servit en un pà de pita)",
+            "price": "4.5€"
+        },
+        {
+            "name": "Ximple de l'horta",
+            "description": "(Remanat de porro amb ou, servit en un pà de pita)",
+            "price": "4.5€"
+        },
+        {
+            "name": "Pinxo",
+            "description": "(Pollastre / Xistorra / Piruleta)",
+            "price": "4.5€"
+        },
+        {
+            "name": "Ximple complert",
+            "description": "Ximple + Beguda + Tros de pastisset",
+            "price": "6.5€"
+        },
+        {
+            "name": "Pinxo complert",
+            "description": "Pinxo + Beguda + Tros de pastisset",
+            "price": "6.5€"
+        }
+    ],
+    "beverages": [
+        {
+            "name": "Aigua",
+            "price": "0.5€"
+        },
+        {
+            "name": "Cervesa",
+            "price": "2€"
+        },
+        {
+            "name": "Vi",
+            "price": "1.5€"
+        },
+        {
+            "name": "Sangria",
+            "price": "2€"
+        },
+        {
+            "name": "Sucs",
+            "description": "(Taronja, préssec)",
+            "price": "1.5€"
+        },
+        {
+            "name": "Suc de regalèssia",
+            "price": "2€"
+        },
+        {
+            "name": "Taronjada / Llimonada",
+            "price": "2€"
+        },
+        {
+            "name": "Ratafia",
+            "price": "3€"
+        },
+        {
+            "name": "Combinats",
+            "description": "(Només a la nit)",
+            "price": "5€"
+        }
+    ]
+}
