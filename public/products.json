@@ -1,29 +1,39 @@
 {
     "meals": [
         {
-            "name": "Ximple de tocino",
+            "name": "Ximple de procella rostida",
             "description": "(Carn picada de porc amb xampinyons i ceba, servit en un pà de pita)",
-            "price": "4.5€"
+            "price": "5€"
         },
         {
             "name": "Ximple de l'horta",
-            "description": "(Remanat de porro amb ou, servit en un pà de pita)",
-            "price": "4.5€"
+            "description": "(Remenat de porro amb ou, servit en un pà de pita)",
+            "price": "5€"
+        },
+        {
+            "name": "Ximple de llom amb formatge/ceba",
+            "description": "(Taronja, préssec)",
+            "price": "5€"
         },
         {
             "name": "Pinxo",
-            "description": "(Pollastre / Xistorra / Piruleta)",
-            "price": "4.5€"
+            "description": "(Salsitxa, xistorra o pollastre)",
+            "price": "3.5€"
+        },
+        {
+            "name": "Porció de coca",
+            "description": "(2€ a la taverna dels ximples)",
+            "price": "1.5€"
         },
         {
             "name": "Ximple complert",
-            "description": "Ximple + Beguda + Tros de pastisset",
-            "price": "6.5€"
+            "description": "Ximple + Beguda + Porció de coca",
+            "price": "8€"
         },
         {
             "name": "Pinxo complert",
-            "description": "Pinxo + Beguda + Tros de pastisset",
-            "price": "6.5€"
+            "description": "Pinxo + Beguda + Porció de coca",
+            "price": "7€"
         }
     ],
     "beverages": [
@@ -55,15 +65,6 @@
         {
             "name": "Taronjada / Llimonada",
             "price": "2€"
-        },
-        {
-            "name": "Ratafia",
-            "price": "3€"
-        },
-        {
-            "name": "Combinats",
-            "description": "(Només a la nit)",
-            "price": "5€"
         }
     ]
 }
