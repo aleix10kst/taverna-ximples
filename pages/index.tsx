@@ -24,7 +24,7 @@ const Home: NextPage<{}> = () => {
       <HomeSection id="menjars" title="Menjar">
         <ProductsList products={meals} />
       </HomeSection>
-      <HomeSection id="brevatges" title="Brevatges" reverse={false}>
+      <HomeSection id="brevatges" title="Beuratges" reverse={false}>
         <ProductsList products={beverages} />
       </HomeSection>
       <HomeSection id="on-som" title="On som?">

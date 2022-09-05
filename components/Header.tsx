@@ -11,8 +11,8 @@ export const Header = () => {
         <a className="font-metamorphous" href="#menjars">
           Menjar
         </a>
-        <a className="font-metamorphous" href="#brevatges">
-          Brevatges
+        <a className="font-metamorphous" href="#beuratges">
+          Beuratges
         </a>
         <a className="font-metamorphous" href="#on-som">
           On som?
