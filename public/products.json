@@ -1,70 +1,102 @@
-{
-    "meals": [
-        {
-            "name": "Ximple de procella rostida",
-            "description": "(Carn picada de porc amb xampinyons i ceba, servit en un pà de pita)",
-            "price": "5€"
-        },
-        {
-            "name": "Ximple de l'horta",
-            "description": "(Remenat de porro amb ou, servit en un pà de pita)",
-            "price": "5€"
-        },
-        {
-            "name": "Ximple de llom amb formatge/ceba",
-            "description": "(Taronja, préssec)",
-            "price": "5€"
-        },
-        {
-            "name": "Pinxo",
-            "description": "(Salsitxa, xistorra o pollastre)",
-            "price": "3.5€"
-        },
-        {
-            "name": "Porció de coca",
-            "description": "(2€ a la taverna dels ximples)",
-            "price": "1.5€"
-        },
-        {
-            "name": "Ximple complert",
-            "description": "Ximple + Beguda + Porció de coca",
-            "price": "8€"
-        },
-        {
-            "name": "Pinxo complert",
-            "description": "Pinxo + Beguda + Porció de coca",
-            "price": "7€"
-        }
-    ],
-    "beverages": [
-        {
-            "name": "Aigua",
-            "price": "0.5€"
-        },
-        {
-            "name": "Cervesa",
-            "price": "2€"
-        },
-        {
-            "name": "Vi",
-            "price": "1.5€"
-        },
-        {
-            "name": "Sangria",
-            "price": "2€"
-        },
-        {
-            "name": "Sucs",
-            "description": "(Taronja, préssec)",
-            "price": "1.5€"
-        },
-        {
-            "name": "Suc de regalèssia",
-            "price": "2€"
-        },
-        {
-            "name": "Taronjada / Llimonada",
-            "price": "2€"
-        }
-    ]
-}
+[
+  {
+    "name": "Ximple de porcella rostida",
+    "description": "Carn rostida de porc amb xampinyons",
+    "price": 5,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Ximple de l'horta",
+    "description": "Remenat de porro amb ou i ceba",
+    "price": 5,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Ximple de llom amb formatge/ceba",
+    "price": 5,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Piruleta de salsitxa o xistorra",
+    "price": 3.5,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Broqueta de pollastre",
+    "price": 3.5,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Porció de coca",
+    "price": 2,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Porció de coca",
+    "price": 1.5,
+    "type": "meal",
+    "establishment": "ximpleta"
+  },
+  {
+    "name": "Pascada",
+    "price": 2.5,
+    "type": "meal",
+    "establishment": "all"
+  },
+  {
+    "name": "Ximple complet",
+    "description": "Ximple a escollir + Beguda + Pastisset",
+    "price": 8,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Piruleta o pintxo complet",
+    "description": "Piruleta o pinxo a escollir + Beguda + Pastisset",
+    "price": 7,
+    "type": "meal",
+    "establishment": "ximple"
+  },
+  {
+    "name": "Cervesa",
+    "price": "2",
+    "type": "beverage",
+    "establishment": "all"
+  },
+  {
+    "name": "Sangria romana",
+    "price": 2,
+    "type": "beverage",
+    "establishment": "all"
+  },
+  {
+    "name": "Begudes fermentades",
+    "price": 2,
+    "type": "beverage",
+    "establishment": "all"
+  },
+  {
+    "name": "Sucs de fruita",
+    "price": 1.5,
+    "type": "beverage",
+    "establishment": "all"
+  },
+  {
+    "name": "Got de vi",
+    "price": 1.5,
+    "type": "beverage",
+    "establishment": "all"
+  },
+  {
+    "name": "Aigua",
+    "price": 0.5,
+    "type": "beverage",
+    "establishment": "all"
+  }
+]

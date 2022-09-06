@@ -1,31 +1,49 @@
 import type { NextPage } from "next";
 import { HomeSection } from "../components/HomeSection";
 import products from "../public/products.json";
-import { Products } from "../lib/types/product";
 import { ProductsList } from "../components/ProductsList";
 import { LocationMap } from "../components/Location";
+import { Product } from "../lib/types/product";
+import { TavernProducts } from "../components/TavernProducts";
+
+const productsList = products as Product[];
 
 const Home: NextPage<{}> = () => {
-  const { meals, beverages } = products as Products;
-
+  const ximpletaProducts = productsList.filter(({ establishment }) =>
+    ["all", "ximpleta"].includes(establishment)
+  );
+  const ximpleProducts = productsList.filter(({ establishment }) =>
+    ["all", "ximple"].includes(establishment)
+  );
   return (
     <div className="relative divide-y-2 divide-red-800">
       <section
         id="inici"
-        className="mx-auto max-w-3xl space-y-2 py-5 px-4 text-center md:py-32"
+        className="mx-auto max-w-3xl space-y-2 py-8 px-4 text-center md:py-32"
       >
-        <p className="font-metamorphous text-3xl md:text-5xl">
+        <p className="font-metamorphous text-4xl md:text-5xl">
           A la taverna dels ximples i la ximpleta!
         </p>
         <p className="font-metamorphous">
           Sabeu a on es van conèixer el noble cavaller i la princesa?
         </p>
       </section>
-      <HomeSection id="menjars" title="Menjar">
-        <ProductsList products={meals} />
-      </HomeSection>
-      <HomeSection id="brevatges" title="Beuratges" reverse={false}>
-        <ProductsList products={beverages} />
+      <TavernProducts
+        id="els-ximples"
+        title="Taverna dels ximples"
+        products={ximpleProducts}
+      />
+      <TavernProducts
+        id="la-ximpleta"
+        title="La ximpleta"
+        products={ximpletaProducts}
+      />
+      <HomeSection id="activitats" title="Activitats">
+        <div className="px-4 pb-4 text-center">
+          <p className="font-metamorphous text-xl">Divendres</p>
+          <p className="font-metamorphous text-xl">Dissabte</p>
+          <p className="font-metamorphous text-xl">Diumenge</p>
+        </div>
       </HomeSection>
       <HomeSection id="on-som" title="On som?">
         <div className="space-y-4 p-4">
