@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import { HomeSection } from "../components/HomeSection";
 import products from "../public/products.json";
-import { ProductsList } from "../components/ProductsList";
 import { LocationMap } from "../components/Location";
 import { Product } from "../lib/types/product";
 import { TavernProducts } from "../components/TavernProducts";
@@ -46,7 +45,7 @@ const Home: NextPage<{}> = () => {
         </div>
       </HomeSection>
       <HomeSection id="on-som" title="On som?">
-        <div className="space-y-4 p-4">
+        <div className="space-y-4">
           <div className="flex flex-col space-y-3">
             <p className="text-center font-medievalSharp text-xl font-bold">
               Taverna dels ximples - Plaça Josefina Gambús

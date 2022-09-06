@@ -12,8 +12,8 @@ export const HomeSection = ({
 }: PropsWithChildren<HomeSectionProps>) => {
   return (
     <section id={id}>
-      <div className={`flex flex-col md:flex-row`}>
-        <div className="grid place-items-center py-6 text-center font-medievalSharp text-3xl font-bold text-red-800/90 md:w-1/3 md:py-0">
+      <div className={`flex flex-col px-4 md:flex-row`}>
+        <div className="grid place-items-center pt-5 pb-2 text-center font-medievalSharp text-3xl font-bold text-red-800/90 md:w-1/3 md:py-0">
           {title}
         </div>
         <div className="w-auto flex-1">{children}</div>
